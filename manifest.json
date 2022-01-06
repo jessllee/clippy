@@ -1,0 +1,15 @@
+{
+"manifest_version" : 3,
+"name" : "Clippy",
+"version" : "1.0",
+"description" : "Miss Clippy? He's back and can be with you now forever.",
+"content_scripts" : [ 
+    { 
+     "matches": ["https://*/*"],
+     "js": ["./main.js"]
+} 
+],
+"permissions": [
+    "activeTab"
+]
+}
