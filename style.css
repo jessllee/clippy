@@ -1,0 +1,71 @@
+.clippypic {
+  position: fixed;
+  bottom: 0;
+  left: 20;
+  height: 20%;
+  align: center;
+  background-color: white;
+  border-radius: 25px;
+}
+
+/* .form { */
+  /* position: fixed;
+  bottom: 0;
+  height: 30%;
+  display: inline-block;
+  
+  /* width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block; */
+  /* border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; */ 
+/* } */
+
+/* .input { */
+  /* position: fixed;
+  bottom: 0;
+  height: 30%;
+  display: inline-block;
+  
+  /* width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block; */
+  /* border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; */ 
+/* } */
+
+.talkForm {
+  position: fixed;
+  bottom: 0;
+  left: 5;
+  height: 30%;
+  width: 30;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  
+}
+
+#searchbar{
+  margin-left: 0;
+  padding:5px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+   width: 90%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+     change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+}

@@ -1,15 +1,17 @@
 {
-"manifest_version" : 3,
-"name" : "Clippy",
-"version" : "1.0",
-"description" : "Miss Clippy? He's back and can be with you now forever.",
-"content_scripts" : [ 
-    { 
-     "matches": ["https://*/*"],
-     "js": ["./main.js"]
-} 
-],
-"permissions": [
-    "activeTab"
-]
-}
+    "manifest_version" : 2,
+    "name" : "Clippy",
+    "version" : "1.0",
+    "description" : "Miss Clippy? He's back and can be with you now forever.",
+    "content_scripts" : [ 
+        { 
+         "matches": ["<all_urls>"],
+         "js": ["main.js"],
+         "css": ["style.css"],
+         "run_at": "document_end"
+    } 
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+    }
